@@ -1,4 +1,5 @@
 #!/bin/bash
+docker rm -f samplerunning 2>/dev/null
 mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
